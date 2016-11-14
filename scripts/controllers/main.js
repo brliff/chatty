@@ -12,6 +12,10 @@ angular.module('chattyApp')
           $scope.messages = response.data;
         });
       }
+
+      // $scope.clearInput = function() {
+      //     $scope.newMessage = '';
+      // }
     };
 
     $scope.awesomeThings = [
